@@ -30,5 +30,5 @@ LATITUDE | VARCHAR string (max 10 characters)
 LONGITUDE | VARCHAR string (max 10 characters)
 DATE | DATETIME 
 HPCP | VARCHAR string (max 10 charcters)
-Measurement Flag: VARCHAR string (max 10 characters)
+Measurement Flag | VARCHAR string (max 10 characters)
 Quality Flag | VARCHAR string (max 10 characters)
