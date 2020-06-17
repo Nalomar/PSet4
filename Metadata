@@ -1,5 +1,5 @@
 | Column Name | Description |
------------------------------
+| ------- | ------- |
 | STATION	| Unique identification number identifying each station |
 | STATION_NAME | 	Name identifying each station (can be a city or airport name) |
 | ELEVATION	| The elevation above mean sea level during the time of recording |
