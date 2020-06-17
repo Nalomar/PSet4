@@ -1,4 +1,4 @@
-# Metadata from problem set 4
+# Metadata for problem set 4
 This is the hourly precipitation data from the U.S. This data was obtained from https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00313
 | Column Name | Description |
 | ------- | ------- |
