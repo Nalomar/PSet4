@@ -6,5 +6,5 @@ import bcp
 conn = bcp.Connection(host='HOST', driver='mssql', username='USER', password='PASSWORD')
 my_bcp = bcp.BCP(conn)
 file = bcp.DataFile(file_path='/home/nathaliealomar/precipitation_hour.csv', delimiter=',')
-my_bcp.load(input_file=file, table='geogrphy', 'precipitation_hour')
+my_bcp.load(input_file=file, table='geogrphic', 'precipitation_hour')
 bcp dbo.ImportTest in 'C:\ImportData.txt' -T 
