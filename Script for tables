@@ -1,0 +1,20 @@
+# Creating geographic table
+CREATE TABLE geographic (
+Latitude VARCHAR(10) NOT NULL auto_increment,
+Longitude VARCHAR(10) NOT NULL auto_increment,
+Date DateTime NOT NULL auto_increment,
+Station_Name VARCHAR(200),
+Elevation VARCHAR(10),
+Primary Key(Latitude, Longitude, Date)
+);
+
+#Creating precipitation table
+CREATE TABLE precipitation (
+Station CHAR(6) NOT NULL auto_increment,
+Date DateTime NOT NULL auto_increment
+HPCP VARCHAR(10) NOT NULL,
+Measurement_Flag VARCHAR(10),
+Quality_Flag VARCHAR(10),
+Geography VARCHAR(200) REFRENCES geographic(Latitude, Longitude, Date)
+Primary Key(Station, Date)
+);
